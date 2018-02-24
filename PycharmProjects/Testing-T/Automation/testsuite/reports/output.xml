@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180222 15:33:50.802" generator="Robot 3.0.2 (Python 2.7.10 on darwin)">
+<suite source="/Users/Shipra/PycharmProjects/Test-T/venv/testsuite/example.robot" id="s1" name="Example">
+<test id="s1-t1" name="Example action">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>this is a test</arg>
+</arguments>
+<msg timestamp="20180222 15:33:50.953" level="INFO">this is a test</msg>
+<status status="PASS" endtime="20180222 15:33:50.953" starttime="20180222 15:33:50.952"></status>
+</kw>
+<status status="PASS" endtime="20180222 15:33:50.953" critical="yes" starttime="20180222 15:33:50.952"></status>
+</test>
+<status status="PASS" endtime="20180222 15:33:50.954" starttime="20180222 15:33:50.868"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Example" pass="1">Example</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
