@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d8b0004-7137-47ff-b82c-11d67561d380" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Automation/testsuite/Resources/custom_keywords/testone_keywords.robot" afterPath="$PROJECT_DIR$/Automation/testsuite/Resources/custom_keywords/testone_keywords.robot" />
-      <change beforePath="$PROJECT_DIR$/Automation/testsuite/test/testcc.robot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Automation/testsuite/tests/Verify_Collaborator_Access.robot" afterPath="$PROJECT_DIR$/Automation/testsuite/tests/Verify_Collaborator_Access.robot" />
-      <change beforePath="$PROJECT_DIR$/Automation/testsuite/tests/Verify_Connection.robot" afterPath="$PROJECT_DIR$/Automation/testsuite/tests/Verify_Connection.robot" />
-      <change beforePath="$PROJECT_DIR$/log.html" afterPath="$PROJECT_DIR$/log.html" />
-      <change beforePath="$PROJECT_DIR$/output.xml" afterPath="$PROJECT_DIR$/output.xml" />
-      <change beforePath="$PROJECT_DIR$/report.html" afterPath="$PROJECT_DIR$/report.html" />
-    </list>
+    <list default="true" id="8d8b0004-7137-47ff-b82c-11d67561d380" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
