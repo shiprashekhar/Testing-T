@@ -9,7 +9,6 @@ Adding a new connection
 | |  Add instafeed                        |                                                          |                                                       |
 | |  Edit tint                            |                                                          |                                                       |
 | |  Page Should Not Contain Element      | jquery=.content-types > h3                               |                                                       |
-| |  close browser                        |                                                          |                                                       |
 | |  Delete current tint                  |                                                          |                                                       |
 
 
