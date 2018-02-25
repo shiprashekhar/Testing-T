@@ -8,4 +8,3 @@ ${email}         testuser1@test.com
 ${pass}          fivepass
 ${tintName}      RandomTint
 ${Collemail}     tintqa@gmail.com
-

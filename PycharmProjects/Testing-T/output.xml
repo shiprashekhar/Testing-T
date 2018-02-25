@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20180225 00:34:18.233" generator="Robot 3.0.2 (Python 2.7.10 on darwin)">
+<robot generated="20180225 19:55:44.482" generator="Robot 3.0.2 (Python 2.7.10 on darwin)">
 <suite source="/Users/Shipra/PycharmProjects/Testing-T/Automation/testsuite/tests" id="s1" name="Tests">
 <suite source="/Users/Shipra/PycharmProjects/Testing-T/Automation/testsuite/tests/Verify_Collaborator_Access.robot" id="s1-s1" name="Verify Collaborator Access">
 <test id="s1-s1-t1" name="Email collaborator">
@@ -10,31 +10,31 @@
 <arg>${web_url}</arg>
 <arg>${browser}</arg>
 </arguments>
-<msg timestamp="20180225 00:34:20.191" level="INFO">Opening browser 'chrome' to base url 'https://www.tintup.com/'.</msg>
-<status status="PASS" endtime="20180225 00:34:37.550" starttime="20180225 00:34:20.190"></status>
+<msg timestamp="20180225 19:55:45.861" level="INFO">Opening browser 'chrome' to base url 'https://www.tintup.com/'.</msg>
+<status status="PASS" endtime="20180225 19:56:02.748" starttime="20180225 19:55:45.861"></status>
 </kw>
 <kw name="Wait Until Page Contains" library="SeleniumLibrary">
 <doc>Waits until ``text`` appears on current page.</doc>
 <arguments>
 <arg>Log In</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:34:38.603" starttime="20180225 00:34:37.555"></status>
+<status status="PASS" endtime="20180225 19:56:02.799" starttime="20180225 19:56:02.752"></status>
 </kw>
 <kw name="Page Should Contain Element" library="SeleniumLibrary">
 <doc>Verifies that element ``locator`` is found on the current page.</doc>
 <arguments>
 <arg>css=#login</arg>
 </arguments>
-<msg timestamp="20180225 00:34:38.769" level="INFO">Current page contains element 'css=#login'.</msg>
-<status status="PASS" endtime="20180225 00:34:38.769" starttime="20180225 00:34:38.604"></status>
+<msg timestamp="20180225 19:56:02.815" level="INFO">Current page contains element 'css=#login'.</msg>
+<status status="PASS" endtime="20180225 19:56:02.816" starttime="20180225 19:56:02.800"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>css=#login</arg>
 </arguments>
-<msg timestamp="20180225 00:34:38.773" level="INFO">Clicking element 'css=#login'.</msg>
-<status status="PASS" endtime="20180225 00:34:41.440" starttime="20180225 00:34:38.771"></status>
+<msg timestamp="20180225 19:56:02.817" level="INFO">Clicking element 'css=#login'.</msg>
+<status status="PASS" endtime="20180225 19:56:05.958" starttime="20180225 19:56:02.816"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -42,16 +42,16 @@
 <arg>css=#credential_email</arg>
 <arg>${email}</arg>
 </arguments>
-<msg timestamp="20180225 00:34:41.442" level="INFO">Typing text 'testuser1@test.com' into text field 'css=#credential_email'.</msg>
-<status status="PASS" endtime="20180225 00:34:41.889" starttime="20180225 00:34:41.441"></status>
+<msg timestamp="20180225 19:56:05.960" level="INFO">Typing text 'testuser1@test.com' into text field 'css=#credential_email'.</msg>
+<status status="PASS" endtime="20180225 19:56:06.453" starttime="20180225 19:56:05.958"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>css=#credential_password</arg>
 </arguments>
-<msg timestamp="20180225 00:34:41.889" level="INFO">Clicking element 'css=#credential_password'.</msg>
-<status status="PASS" endtime="20180225 00:34:41.986" starttime="20180225 00:34:41.889"></status>
+<msg timestamp="20180225 19:56:06.454" level="INFO">Clicking element 'css=#credential_password'.</msg>
+<status status="PASS" endtime="20180225 19:56:06.537" starttime="20180225 19:56:06.454"></status>
 </kw>
 <kw name="Input Password" library="SeleniumLibrary">
 <doc>Types the given password into text field identified by ``locator``.</doc>
@@ -59,25 +59,25 @@
 <arg>css=#credential_password</arg>
 <arg>${pass}</arg>
 </arguments>
-<msg timestamp="20180225 00:34:41.987" level="INFO">Typing password into text field 'css=#credential_password'.</msg>
-<status status="PASS" endtime="20180225 00:34:42.099" starttime="20180225 00:34:41.986"></status>
+<msg timestamp="20180225 19:56:06.537" level="INFO">Typing password into text field 'css=#credential_password'.</msg>
+<status status="PASS" endtime="20180225 19:56:06.612" starttime="20180225 19:56:06.537"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>name=commit</arg>
 </arguments>
-<msg timestamp="20180225 00:34:42.099" level="INFO">Clicking element 'name=commit'.</msg>
-<status status="PASS" endtime="20180225 00:35:14.300" starttime="20180225 00:34:42.099"></status>
+<msg timestamp="20180225 19:56:06.613" level="INFO">Clicking element 'name=commit'.</msg>
+<status status="PASS" endtime="20180225 19:56:18.670" starttime="20180225 19:56:06.613"></status>
 </kw>
 <kw name="Wait Until Page Contains" library="SeleniumLibrary">
 <doc>Waits until ``text`` appears on current page.</doc>
 <arguments>
 <arg>TINTs</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:35:14.342" starttime="20180225 00:35:14.302"></status>
+<status status="PASS" endtime="20180225 19:56:18.768" starttime="20180225 19:56:18.670"></status>
 </kw>
-<status status="PASS" endtime="20180225 00:35:14.343" starttime="20180225 00:34:20.190"></status>
+<status status="PASS" endtime="20180225 19:56:18.770" starttime="20180225 19:55:45.860"></status>
 </kw>
 <kw name="Adding a new tint" library="testone_keywords">
 <kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
@@ -85,59 +85,91 @@
 <arguments>
 <arg>jquery=i.icon-white.fas.fa-plus</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:35:14.352" starttime="20180225 00:35:14.344"></status>
+<status status="PASS" endtime="20180225 19:56:18.782" starttime="20180225 19:56:18.771"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>jquery=i.icon-white.fas.fa-plus</arg>
 </arguments>
-<msg timestamp="20180225 00:35:14.353" level="INFO">Clicking element 'jquery=i.icon-white.fas.fa-plus'.</msg>
-<status status="PASS" endtime="20180225 00:35:14.476" starttime="20180225 00:35:14.352"></status>
+<msg timestamp="20180225 19:56:18.783" level="INFO">Clicking element 'jquery=i.icon-white.fas.fa-plus'.</msg>
+<status status="PASS" endtime="20180225 19:56:18.875" starttime="20180225 19:56:18.783"></status>
 </kw>
 <kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
 <doc>Sets the implicit wait value used by Selenium.</doc>
 <arguments>
 <arg>5s</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:35:14.505" starttime="20180225 00:35:14.478"></status>
+<status status="PASS" endtime="20180225 19:56:18.894" starttime="20180225 19:56:18.875"></status>
 </kw>
 <kw name="Set Focus To Element" library="SeleniumLibrary">
 <doc>Sets focus to element identified by ``locator``.</doc>
 <arguments>
 <arg>css=#newTintUsername</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:35:14.546" starttime="20180225 00:35:14.506"></status>
+<status status="PASS" endtime="20180225 19:56:18.950" starttime="20180225 19:56:18.895"></status>
+</kw>
+<kw name="Random Value" library="testone_keywords">
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code.</doc>
+<arguments>
+<arg>var d = Math.floor((Math.random() * 1000) + 1); return d;</arg>
+</arguments>
+<assign>
+<var>${random}</var>
+</assign>
+<msg timestamp="20180225 19:56:18.951" level="INFO">Executing JavaScript:
+var d = Math.floor((Math.random() * 1000) + 1); return d;</msg>
+<msg timestamp="20180225 19:56:18.968" level="INFO">${random} = 179</msg>
+<status status="PASS" endtime="20180225 19:56:18.969" starttime="20180225 19:56:18.951"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${random}</arg>
+</arguments>
+<msg timestamp="20180225 19:56:18.970" level="INFO">${random} = 179</msg>
+<status status="PASS" endtime="20180225 19:56:18.970" starttime="20180225 19:56:18.969"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${random}</arg>
+</arguments>
+<msg timestamp="20180225 19:56:18.972" level="INFO">179</msg>
+<status status="PASS" endtime="20180225 19:56:18.972" starttime="20180225 19:56:18.971"></status>
+</kw>
+<status status="PASS" endtime="20180225 19:56:18.972" starttime="20180225 19:56:18.950"></status>
 </kw>
 <kw name="Press Key" library="SeleniumLibrary">
 <doc>Simulates user pressing key on element identified by ``locator``.</doc>
 <arguments>
 <arg>css=#newTintUsername</arg>
-<arg>${tintName}</arg>
+<arg>Randomtint${random}</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:35:14.797" starttime="20180225 00:35:14.547"></status>
+<status status="PASS" endtime="20180225 19:56:19.334" starttime="20180225 19:56:18.973"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>jquery=.btn-primary.create-tint-check-name</arg>
 </arguments>
-<msg timestamp="20180225 00:35:14.798" level="INFO">Clicking element 'jquery=.btn-primary.create-tint-check-name'.</msg>
-<status status="PASS" endtime="20180225 00:35:14.921" starttime="20180225 00:35:14.797"></status>
+<msg timestamp="20180225 19:56:19.334" level="INFO">Clicking element 'jquery=.btn-primary.create-tint-check-name'.</msg>
+<status status="PASS" endtime="20180225 19:56:19.435" starttime="20180225 19:56:19.334"></status>
 </kw>
 <kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
 <doc>Sets the implicit wait value used by Selenium.</doc>
 <arguments>
 <arg>10s</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:35:14.923" starttime="20180225 00:35:14.922"></status>
+<status status="PASS" endtime="20180225 19:56:19.439" starttime="20180225 19:56:19.436"></status>
 </kw>
 <kw name="Set Focus To Element" library="SeleniumLibrary">
 <doc>Sets focus to element identified by ``locator``.</doc>
 <arguments>
 <arg>css=textarea[type="text"].question-input</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:35:15.518" starttime="20180225 00:35:14.924"></status>
+<status status="PASS" endtime="20180225 19:56:19.993" starttime="20180225 19:56:19.439"></status>
 </kw>
 <kw name="Press Key" library="SeleniumLibrary">
 <doc>Simulates user pressing key on element identified by ``locator``.</doc>
@@ -145,43 +177,43 @@
 <arg>css=textarea[type="text"].question-input</arg>
 <arg>Goal</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:35:15.706" starttime="20180225 00:35:15.518"></status>
+<status status="PASS" endtime="20180225 19:56:20.188" starttime="20180225 19:56:19.993"></status>
 </kw>
 <kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
 <doc>Sets the implicit wait value used by Selenium.</doc>
 <arguments>
 <arg>20s</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:35:15.708" starttime="20180225 00:35:15.706"></status>
+<status status="PASS" endtime="20180225 19:56:20.190" starttime="20180225 19:56:20.188"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>jquery=.btn.btn-link.pull-left:nth(0)</arg>
 </arguments>
-<msg timestamp="20180225 00:35:15.708" level="INFO">Clicking element 'jquery=.btn.btn-link.pull-left:nth(0)'.</msg>
-<status status="PASS" endtime="20180225 00:35:15.857" starttime="20180225 00:35:15.708"></status>
+<msg timestamp="20180225 19:56:20.190" level="INFO">Clicking element 'jquery=.btn.btn-link.pull-left:nth(0)'.</msg>
+<status status="PASS" endtime="20180225 19:56:20.334" starttime="20180225 19:56:20.190"></status>
 </kw>
 <kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
 <doc>Sets the implicit wait value used by Selenium.</doc>
 <arguments>
 <arg>30s</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:35:15.860" starttime="20180225 00:35:15.858"></status>
+<status status="PASS" endtime="20180225 19:56:20.337" starttime="20180225 19:56:20.334"></status>
 </kw>
 <kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` appears on current page.</doc>
 <arguments>
 <arg>css=a[type="button"] &gt; i.fab.fa-instagram</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:35:24.651" starttime="20180225 00:35:15.861"></status>
+<status status="PASS" endtime="20180225 19:56:30.919" starttime="20180225 19:56:20.338"></status>
 </kw>
 <kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` appears on current page.</doc>
 <arguments>
 <arg>jquery=.content-types &gt; h3</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:35:24.716" starttime="20180225 00:35:24.651"></status>
+<status status="PASS" endtime="20180225 19:56:31.008" starttime="20180225 19:56:30.919"></status>
 </kw>
 <kw name="Element Should Contain" library="SeleniumLibrary">
 <doc>Verifies that element ``locator`` contains text ``expected``.</doc>
@@ -189,62 +221,62 @@
 <arg>jquery=.content-types &gt; h3</arg>
 <arg>Types of content you can source from...</arg>
 </arguments>
-<msg timestamp="20180225 00:35:24.744" level="INFO">Element 'jquery=.content-types &gt; h3' contains text 'Types of content you can source from...'.</msg>
-<status status="PASS" endtime="20180225 00:35:24.744" starttime="20180225 00:35:24.717"></status>
+<msg timestamp="20180225 19:56:32.030" level="INFO">Element 'jquery=.content-types &gt; h3' contains text 'Types of content you can source from...'.</msg>
+<status status="PASS" endtime="20180225 19:56:32.030" starttime="20180225 19:56:31.009"></status>
 </kw>
-<status status="PASS" endtime="20180225 00:35:24.744" starttime="20180225 00:35:14.343"></status>
+<status status="PASS" endtime="20180225 19:56:32.030" starttime="20180225 19:56:18.770"></status>
 </kw>
 <kw name="Mouse Over" library="SeleniumLibrary">
 <doc>Simulates hovering mouse over the element ``locator``.</doc>
 <arguments>
 <arg>css=#dashboards_dropdown_toggle</arg>
 </arguments>
-<msg timestamp="20180225 00:35:24.745" level="INFO">Simulating Mouse Over on element 'css=#dashboards_dropdown_toggle'.</msg>
-<status status="PASS" endtime="20180225 00:35:24.788" starttime="20180225 00:35:24.745"></status>
+<msg timestamp="20180225 19:56:32.031" level="INFO">Simulating Mouse Over on element 'css=#dashboards_dropdown_toggle'.</msg>
+<status status="PASS" endtime="20180225 19:56:32.179" starttime="20180225 19:56:32.031"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
 <arguments>
 <arg>css=a[href="/admin/collaborators"]</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:35:24.824" starttime="20180225 00:35:24.788"></status>
+<status status="PASS" endtime="20180225 19:56:32.220" starttime="20180225 19:56:32.180"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>css=a[href="/admin/collaborators"]</arg>
 </arguments>
-<msg timestamp="20180225 00:35:24.825" level="INFO">Clicking element 'css=a[href="/admin/collaborators"]'.</msg>
-<status status="PASS" endtime="20180225 00:35:29.819" starttime="20180225 00:35:24.824"></status>
+<msg timestamp="20180225 19:56:32.222" level="INFO">Clicking element 'css=a[href="/admin/collaborators"]'.</msg>
+<status status="PASS" endtime="20180225 19:56:39.009" starttime="20180225 19:56:32.221"></status>
 </kw>
 <kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` appears on current page.</doc>
 <arguments>
 <arg>jquery=i.icon-white.fas.fa-user-plus</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:35:29.829" starttime="20180225 00:35:29.819"></status>
+<status status="PASS" endtime="20180225 19:56:39.299" starttime="20180225 19:56:39.010"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>jquery=i.icon-white.fas.fa-user-plus</arg>
 </arguments>
-<msg timestamp="20180225 00:35:29.830" level="INFO">Clicking element 'jquery=i.icon-white.fas.fa-user-plus'.</msg>
-<status status="PASS" endtime="20180225 00:35:29.918" starttime="20180225 00:35:29.829"></status>
+<msg timestamp="20180225 19:56:39.299" level="INFO">Clicking element 'jquery=i.icon-white.fas.fa-user-plus'.</msg>
+<status status="PASS" endtime="20180225 19:56:39.467" starttime="20180225 19:56:39.299"></status>
 </kw>
 <kw name="Set Focus To Element" library="SeleniumLibrary">
 <doc>Sets focus to element identified by ``locator``.</doc>
 <arguments>
 <arg>css=#enterprise_account_add_email</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:35:29.946" starttime="20180225 00:35:29.918"></status>
+<status status="PASS" endtime="20180225 19:56:39.506" starttime="20180225 19:56:39.468"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
 <arguments>
 <arg>css=#enterprise_account_add_email</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:35:30.232" starttime="20180225 00:35:29.947"></status>
+<status status="PASS" endtime="20180225 19:56:39.764" starttime="20180225 19:56:39.506"></status>
 </kw>
 <kw name="Press Key" library="SeleniumLibrary">
 <doc>Simulates user pressing key on element identified by ``locator``.</doc>
@@ -252,31 +284,31 @@
 <arg>css=#enterprise_account_add_email</arg>
 <arg>${Collemail}</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:35:30.429" starttime="20180225 00:35:30.232"></status>
+<status status="PASS" endtime="20180225 19:56:40.053" starttime="20180225 19:56:39.764"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>css=table.table &gt; tbody &gt; tr:nth-of-type(4) &gt; td &gt; .checkbox &gt; label</arg>
 </arguments>
-<msg timestamp="20180225 00:35:30.430" level="INFO">Clicking element 'css=table.table &gt; tbody &gt; tr:nth-of-type(4) &gt; td &gt; .checkbox &gt; label'.</msg>
-<status status="PASS" endtime="20180225 00:35:30.616" starttime="20180225 00:35:30.429"></status>
+<msg timestamp="20180225 19:56:40.054" level="INFO">Clicking element 'css=table.table &gt; tbody &gt; tr:nth-of-type(4) &gt; td &gt; .checkbox &gt; label'.</msg>
+<status status="PASS" endtime="20180225 19:56:40.221" starttime="20180225 19:56:40.053"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>jquery=.btn-primary.btn-lg.collaborator-account-submit</arg>
 </arguments>
-<msg timestamp="20180225 00:35:30.617" level="INFO">Clicking element 'jquery=.btn-primary.btn-lg.collaborator-account-submit'.</msg>
-<status status="PASS" endtime="20180225 00:35:30.749" starttime="20180225 00:35:30.617"></status>
+<msg timestamp="20180225 19:56:40.222" level="INFO">Clicking element 'jquery=.btn-primary.btn-lg.collaborator-account-submit'.</msg>
+<status status="PASS" endtime="20180225 19:56:40.362" starttime="20180225 19:56:40.221"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>jquery=.btn.btn-primary.btn-lg.collaborator-custom-field-send</arg>
 </arguments>
-<msg timestamp="20180225 00:35:30.750" level="INFO">Clicking element 'jquery=.btn.btn-primary.btn-lg.collaborator-custom-field-send'.</msg>
-<status status="PASS" endtime="20180225 00:35:30.835" starttime="20180225 00:35:30.750"></status>
+<msg timestamp="20180225 19:56:40.363" level="INFO">Clicking element 'jquery=.btn.btn-primary.btn-lg.collaborator-custom-field-send'.</msg>
+<status status="PASS" endtime="20180225 19:56:40.453" starttime="20180225 19:56:40.362"></status>
 </kw>
 <kw name="Open Mailbox" library="ImapLibrary">
 <doc>Open IMAP email client session to given ``host`` with given ``user`` and ``password``.</doc>
@@ -285,7 +317,7 @@
 <arg>user=tintqa@gmail.com</arg>
 <arg>password=fivepass</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:35:33.502" starttime="20180225 00:35:30.835"></status>
+<status status="PASS" endtime="20180225 19:56:43.265" starttime="20180225 19:56:40.454"></status>
 </kw>
 <kw name="Wait For Email" library="ImapLibrary">
 <doc>Wait for email message to arrived base on any given filter criteria.</doc>
@@ -296,8 +328,8 @@
 <assign>
 <var>${LATEST}</var>
 </assign>
-<msg timestamp="20180225 00:35:44.941" level="INFO">${LATEST} = 23</msg>
-<status status="PASS" endtime="20180225 00:35:44.942" starttime="20180225 00:35:33.503"></status>
+<msg timestamp="20180225 19:56:54.779" level="INFO">${LATEST} = 29</msg>
+<status status="PASS" endtime="20180225 19:56:54.779" starttime="20180225 19:56:43.266"></status>
 </kw>
 <kw name="Get Links From Email" library="ImapLibrary">
 <doc>Returns all links found in the email body from given ``email_index``.</doc>
@@ -307,12 +339,12 @@
 <assign>
 <var>@{inx}</var>
 </assign>
-<msg timestamp="20180225 00:35:45.544" level="INFO">@{inx} = [ http://email_link.tintup.com/wf/click?upn=MrTLa1CIoLiHA-2BsHaVU32y3Mtf8GfjUsSaymITVttt-2FYZmwh7jGm9G593aWI7zDjURcSEDdQNb-2B3bIRgcI2rdnlJbAb-2Fb7ByymMF3fl4z-2FM-3D_-2FC5313fe8QzOVS1mP2ooitcsuv9QHWtXJ...</msg>
-<status status="PASS" endtime="20180225 00:35:45.544" starttime="20180225 00:35:44.942"></status>
+<msg timestamp="20180225 19:56:55.457" level="INFO">@{inx} = [ http://email_link.tintup.com/wf/click?upn=MrTLa1CIoLiHA-2BsHaVU32y3Mtf8GfjUsSaymITVttt-2FYZmwh7jGm9G593aWI7zDjURcSEDdQNb-2B3bIRgcI2rdnlJbAb-2Fb7ByymMF3fl4z-2FM-3D_-2FC5313fe8QzOVS1mP2ooitcsuv9QHWtXJ...</msg>
+<status status="PASS" endtime="20180225 19:56:55.457" starttime="20180225 19:56:54.780"></status>
 </kw>
 <kw name="Close Mailbox" library="ImapLibrary">
 <doc>Close IMAP email client session.</doc>
-<status status="PASS" endtime="20180225 00:35:45.859" starttime="20180225 00:35:45.544"></status>
+<status status="PASS" endtime="20180225 19:56:55.800" starttime="20180225 19:56:55.457"></status>
 </kw>
 <kw name="Open Browser" library="SeleniumLibrary">
 <doc>Opens a new browser instance to the given ``url``.</doc>
@@ -320,23 +352,23 @@
 <arg>@{inx}[1]</arg>
 <arg>${browser}</arg>
 </arguments>
-<msg timestamp="20180225 00:35:45.860" level="INFO">Opening browser 'chrome' to base url 'http://email_link.tintup.com/wf/click?upn=lfzjeF-2FYtlS5F-2FK4XtshhCDro6VGOwtsbZke-2F-2FDUfTWbA0SDG7tSXfpoWQb2HeSGhTCo87jGV57fD-2Fwof4GEOBwP4-2B68UBKR-2FINWw2u3Hmmb892HiUZT77WOqgSW3-2BZ2lLVVe69LPwIe9rStuCisbw-3D-3D_-2FC5313fe8QzOVS1mP2ooitcsuv9QHWtXJBnZ6im4Zuyz6UlSA-2BYoUrbm0AB5g7LLy6hTYE6NsI39fbnq1biIrN24nMS4MMX10Ra6uNSk23M2McQID5mUbu4KxQUpk2twok5tFPbxfjSHBlkw6SIWi51d6Rb5drb5CMeA5xuTF46b5-2FzVuDpZ0T3M1AYVEEg1wiN7AsxK-2FMSGCnZ0T5Omq7hI094JojuZKJ2zRXFGAb7Wq-2Fz99R0lqg3bgG25aPThn69ROVd7istuOypdtdJWwHcE1ALy81uMLvJNuBA6QznSUZIrHtIf-2FYrDky1-2FpaKh'.</msg>
-<status status="PASS" endtime="20180225 00:35:56.779" starttime="20180225 00:35:45.860"></status>
+<msg timestamp="20180225 19:56:55.801" level="INFO">Opening browser 'chrome' to base url 'http://email_link.tintup.com/wf/click?upn=lfzjeF-2FYtlS5F-2FK4XtshhCDro6VGOwtsbZke-2F-2FDUfTWbA0SDG7tSXfpoWQb2HeSGhTCo87jGV57fD-2Fwof4GEOASwoHm2GJHS-2FpgebKdo1I8EARpkQlGRqgvqvjiPjHlOwiZOa-2FsApYkKiVQrdNoyeA-3D-3D_-2FC5313fe8QzOVS1mP2ooitcsuv9QHWtXJBnZ6im4Zuw2xLmwEmI-2F43SOIJS9DM6mGaiVFwa0hW-2F9pPIuB-2Fj2HePAR248YnODC5qlOCnAe2MMBpptK9mwrHLbyjMJctaNBpd3F-2FzbnM-2BZeh7hBzfmkHbmYy8AKnOYG9NcS3RXmvWycqCIPvL7YtF0rbtuq-2FcdOGmOhBkOTQW7Zu-2BnyoyMV8zEWInBFQyZ0980VOptwCPL26HT4gEkTawj5agDUMjW0kcWmyfZfSWlPZln0Jzin0xQrXNIqqPHKskktmHVgL3i8ssJu5WiidsGapuZMily'.</msg>
+<status status="PASS" endtime="20180225 19:57:04.018" starttime="20180225 19:56:55.800"></status>
 </kw>
 <kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` appears on current page.</doc>
 <arguments>
 <arg>id=credential_password</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:35:56.802" starttime="20180225 00:35:56.782"></status>
+<status status="PASS" endtime="20180225 19:57:04.060" starttime="20180225 19:57:04.020"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>id=credential_password</arg>
 </arguments>
-<msg timestamp="20180225 00:35:56.803" level="INFO">Clicking element 'id=credential_password'.</msg>
-<status status="PASS" endtime="20180225 00:35:56.853" starttime="20180225 00:35:56.803"></status>
+<msg timestamp="20180225 19:57:04.061" level="INFO">Clicking element 'id=credential_password'.</msg>
+<status status="PASS" endtime="20180225 19:57:04.152" starttime="20180225 19:57:04.060"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -344,16 +376,16 @@
 <arg>id=credential_password</arg>
 <arg>${pass}</arg>
 </arguments>
-<msg timestamp="20180225 00:35:56.871" level="INFO">Typing text 'fivepass' into text field 'id=credential_password'.</msg>
-<status status="PASS" endtime="20180225 00:35:56.983" starttime="20180225 00:35:56.854"></status>
+<msg timestamp="20180225 19:57:04.154" level="INFO">Typing text 'fivepass' into text field 'id=credential_password'.</msg>
+<status status="PASS" endtime="20180225 19:57:04.291" starttime="20180225 19:57:04.153"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>id=credential_password_confirmation</arg>
 </arguments>
-<msg timestamp="20180225 00:35:56.984" level="INFO">Clicking element 'id=credential_password_confirmation'.</msg>
-<status status="PASS" endtime="20180225 00:35:57.102" starttime="20180225 00:35:56.984"></status>
+<msg timestamp="20180225 19:57:04.292" level="INFO">Clicking element 'id=credential_password_confirmation'.</msg>
+<status status="PASS" endtime="20180225 19:57:04.356" starttime="20180225 19:57:04.291"></status>
 </kw>
 <kw name="Input Password" library="SeleniumLibrary">
 <doc>Types the given password into text field identified by ``locator``.</doc>
@@ -361,35 +393,35 @@
 <arg>id=credential_password_confirmation</arg>
 <arg>${pass}</arg>
 </arguments>
-<msg timestamp="20180225 00:35:57.103" level="INFO">Typing password into text field 'id=credential_password_confirmation'.</msg>
-<status status="PASS" endtime="20180225 00:35:57.283" starttime="20180225 00:35:57.102"></status>
+<msg timestamp="20180225 19:57:04.357" level="INFO">Typing password into text field 'id=credential_password_confirmation'.</msg>
+<status status="PASS" endtime="20180225 19:57:04.442" starttime="20180225 19:57:04.356"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>name=commit</arg>
 </arguments>
-<msg timestamp="20180225 00:35:57.283" level="INFO">Clicking element 'name=commit'.</msg>
-<status status="PASS" endtime="20180225 00:36:05.712" starttime="20180225 00:35:57.283"></status>
+<msg timestamp="20180225 19:57:04.442" level="INFO">Clicking element 'name=commit'.</msg>
+<status status="PASS" endtime="20180225 19:57:13.536" starttime="20180225 19:57:04.442"></status>
 </kw>
 <kw name="Wait Until Page Contains" library="SeleniumLibrary">
 <doc>Waits until ``text`` appears on current page.</doc>
 <arguments>
 <arg>TINTs</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:36:05.812" starttime="20180225 00:36:05.713"></status>
+<status status="PASS" endtime="20180225 19:57:13.595" starttime="20180225 19:57:13.536"></status>
 </kw>
 <kw name="Page Should Not Contain" library="SeleniumLibrary">
 <doc>Verifies the current page does not contain ``text``.</doc>
 <arguments>
-<arg>randomtint</arg>
+<arg>Randomtint${random}</arg>
 </arguments>
-<msg timestamp="20180225 00:36:06.611" level="INFO">Current page does not contain text 'randomtint'.</msg>
-<status status="PASS" endtime="20180225 00:36:06.611" starttime="20180225 00:36:05.812"></status>
+<msg timestamp="20180225 19:57:14.319" level="INFO">Current page does not contain text 'Randomtint179'.</msg>
+<status status="PASS" endtime="20180225 19:57:14.319" starttime="20180225 19:57:13.596"></status>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" endtime="20180225 00:36:07.423" starttime="20180225 00:36:06.612"></status>
+<status status="PASS" endtime="20180225 19:57:14.695" starttime="20180225 19:57:14.320"></status>
 </kw>
 <kw name="Login as a test user" library="testone_keywords">
 <kw name="Open Browser" library="SeleniumLibrary">
@@ -398,31 +430,31 @@
 <arg>${web_url}</arg>
 <arg>${browser}</arg>
 </arguments>
-<msg timestamp="20180225 00:36:07.505" level="INFO">Opening browser 'chrome' to base url 'https://www.tintup.com/'.</msg>
-<status status="PASS" endtime="20180225 00:36:17.284" starttime="20180225 00:36:07.504"></status>
+<msg timestamp="20180225 19:57:14.696" level="INFO">Opening browser 'chrome' to base url 'https://www.tintup.com/'.</msg>
+<status status="PASS" endtime="20180225 19:57:24.833" starttime="20180225 19:57:14.696"></status>
 </kw>
 <kw name="Wait Until Page Contains" library="SeleniumLibrary">
 <doc>Waits until ``text`` appears on current page.</doc>
 <arguments>
 <arg>Log In</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:36:17.308" starttime="20180225 00:36:17.285"></status>
+<status status="PASS" endtime="20180225 19:57:24.861" starttime="20180225 19:57:24.833"></status>
 </kw>
 <kw name="Page Should Contain Element" library="SeleniumLibrary">
 <doc>Verifies that element ``locator`` is found on the current page.</doc>
 <arguments>
 <arg>css=#login</arg>
 </arguments>
-<msg timestamp="20180225 00:36:17.324" level="INFO">Current page contains element 'css=#login'.</msg>
-<status status="PASS" endtime="20180225 00:36:17.324" starttime="20180225 00:36:17.308"></status>
+<msg timestamp="20180225 19:57:24.883" level="INFO">Current page contains element 'css=#login'.</msg>
+<status status="PASS" endtime="20180225 19:57:24.883" starttime="20180225 19:57:24.862"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>css=#login</arg>
 </arguments>
-<msg timestamp="20180225 00:36:17.325" level="INFO">Clicking element 'css=#login'.</msg>
-<status status="PASS" endtime="20180225 00:36:20.341" starttime="20180225 00:36:17.325"></status>
+<msg timestamp="20180225 19:57:24.884" level="INFO">Clicking element 'css=#login'.</msg>
+<status status="PASS" endtime="20180225 19:57:28.594" starttime="20180225 19:57:24.884"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -430,16 +462,16 @@
 <arg>css=#credential_email</arg>
 <arg>${email}</arg>
 </arguments>
-<msg timestamp="20180225 00:36:20.342" level="INFO">Typing text 'testuser1@test.com' into text field 'css=#credential_email'.</msg>
-<status status="PASS" endtime="20180225 00:36:20.727" starttime="20180225 00:36:20.342"></status>
+<msg timestamp="20180225 19:57:28.595" level="INFO">Typing text 'testuser1@test.com' into text field 'css=#credential_email'.</msg>
+<status status="PASS" endtime="20180225 19:57:28.933" starttime="20180225 19:57:28.594"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>css=#credential_password</arg>
 </arguments>
-<msg timestamp="20180225 00:36:20.728" level="INFO">Clicking element 'css=#credential_password'.</msg>
-<status status="PASS" endtime="20180225 00:36:20.813" starttime="20180225 00:36:20.728"></status>
+<msg timestamp="20180225 19:57:28.934" level="INFO">Clicking element 'css=#credential_password'.</msg>
+<status status="PASS" endtime="20180225 19:57:29.100" starttime="20180225 19:57:28.933"></status>
 </kw>
 <kw name="Input Password" library="SeleniumLibrary">
 <doc>Types the given password into text field identified by ``locator``.</doc>
@@ -447,25 +479,25 @@
 <arg>css=#credential_password</arg>
 <arg>${pass}</arg>
 </arguments>
-<msg timestamp="20180225 00:36:20.814" level="INFO">Typing password into text field 'css=#credential_password'.</msg>
-<status status="PASS" endtime="20180225 00:36:20.889" starttime="20180225 00:36:20.813"></status>
+<msg timestamp="20180225 19:57:29.101" level="INFO">Typing password into text field 'css=#credential_password'.</msg>
+<status status="PASS" endtime="20180225 19:57:29.188" starttime="20180225 19:57:29.101"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>name=commit</arg>
 </arguments>
-<msg timestamp="20180225 00:36:20.890" level="INFO">Clicking element 'name=commit'.</msg>
-<status status="PASS" endtime="20180225 00:36:29.357" starttime="20180225 00:36:20.889"></status>
+<msg timestamp="20180225 19:57:29.189" level="INFO">Clicking element 'name=commit'.</msg>
+<status status="PASS" endtime="20180225 19:57:38.194" starttime="20180225 19:57:29.189"></status>
 </kw>
 <kw name="Wait Until Page Contains" library="SeleniumLibrary">
 <doc>Waits until ``text`` appears on current page.</doc>
 <arguments>
 <arg>TINTs</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:36:29.443" starttime="20180225 00:36:29.357"></status>
+<status status="PASS" endtime="20180225 19:57:38.231" starttime="20180225 19:57:38.194"></status>
 </kw>
-<status status="PASS" endtime="20180225 00:36:29.444" starttime="20180225 00:36:07.423"></status>
+<status status="PASS" endtime="20180225 19:57:38.231" starttime="20180225 19:57:14.695"></status>
 </kw>
 <kw name="Delete tint" library="testone_keywords">
 <kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
@@ -473,61 +505,61 @@
 <arguments>
 <arg>jquery=.dropdown.simple-dropdown &gt; button.btn.btn-link &gt; i.fas.fa-cog</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:36:29.451" starttime="20180225 00:36:29.445"></status>
+<status status="PASS" endtime="20180225 19:57:38.239" starttime="20180225 19:57:38.232"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>jquery=.dropdown.simple-dropdown &gt; button.btn.btn-link &gt; i.fas.fa-cog</arg>
 </arguments>
-<msg timestamp="20180225 00:36:29.452" level="INFO">Clicking element 'jquery=.dropdown.simple-dropdown &gt; button.btn.btn-link &gt; i.fas.fa-cog'.</msg>
-<status status="PASS" endtime="20180225 00:36:29.562" starttime="20180225 00:36:29.452"></status>
+<msg timestamp="20180225 19:57:38.240" level="INFO">Clicking element 'jquery=.dropdown.simple-dropdown &gt; button.btn.btn-link &gt; i.fas.fa-cog'.</msg>
+<status status="PASS" endtime="20180225 19:57:38.338" starttime="20180225 19:57:38.240"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>jquery=.dropdown-menu &gt; li:nth-of-type(6) &gt; a[href="#"].settings-item-remove</arg>
 </arguments>
-<msg timestamp="20180225 00:36:29.562" level="INFO">Clicking element 'jquery=.dropdown-menu &gt; li:nth-of-type(6) &gt; a[href="#"].settings-item-remove'.</msg>
-<status status="PASS" endtime="20180225 00:36:29.766" starttime="20180225 00:36:29.562"></status>
+<msg timestamp="20180225 19:57:38.339" level="INFO">Clicking element 'jquery=.dropdown-menu &gt; li:nth-of-type(6) &gt; a[href="#"].settings-item-remove'.</msg>
+<status status="PASS" endtime="20180225 19:57:38.495" starttime="20180225 19:57:38.338"></status>
 </kw>
 <kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
 <doc>Sets the implicit wait value used by Selenium.</doc>
 <arguments>
 <arg>20s</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:36:29.772" starttime="20180225 00:36:29.766"></status>
+<status status="PASS" endtime="20180225 19:57:38.517" starttime="20180225 19:57:38.496"></status>
 </kw>
 <kw name="Set Focus To Element" library="SeleniumLibrary">
 <doc>Sets focus to element identified by ``locator``.</doc>
 <arguments>
 <arg>jquery=i.fas.fa-check:nth(0)</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:36:29.824" starttime="20180225 00:36:29.773"></status>
+<status status="PASS" endtime="20180225 19:57:38.538" starttime="20180225 19:57:38.518"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
 <arguments>
 <arg>jquery=i.fas.fa-check:nth(0)</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:36:30.097" starttime="20180225 00:36:29.825"></status>
+<status status="PASS" endtime="20180225 19:57:38.791" starttime="20180225 19:57:38.538"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>jquery=i.fas.fa-check:nth(0)</arg>
 </arguments>
-<msg timestamp="20180225 00:36:30.098" level="INFO">Clicking element 'jquery=i.fas.fa-check:nth(0)'.</msg>
-<status status="PASS" endtime="20180225 00:36:30.210" starttime="20180225 00:36:30.097"></status>
+<msg timestamp="20180225 19:57:38.792" level="INFO">Clicking element 'jquery=i.fas.fa-check:nth(0)'.</msg>
+<status status="PASS" endtime="20180225 19:57:38.956" starttime="20180225 19:57:38.791"></status>
 </kw>
-<status status="PASS" endtime="20180225 00:36:30.210" starttime="20180225 00:36:29.444"></status>
+<status status="PASS" endtime="20180225 19:57:38.957" starttime="20180225 19:57:38.231"></status>
 </kw>
 <tags>
 <tag>Ok</tag>
 </tags>
-<status status="PASS" endtime="20180225 00:36:30.211" critical="yes" starttime="20180225 00:34:20.189"></status>
+<status status="PASS" endtime="20180225 19:57:38.957" critical="yes" starttime="20180225 19:55:45.858"></status>
 </test>
-<status status="PASS" endtime="20180225 00:36:30.258" starttime="20180225 00:34:18.488"></status>
+<status status="PASS" endtime="20180225 19:57:38.985" starttime="20180225 19:55:44.552"></status>
 </suite>
 <suite source="/Users/Shipra/PycharmProjects/Testing-T/Automation/testsuite/tests/Verify_Connection.robot" id="s1-s2" name="Verify Connection">
 <test id="s1-s2-t1" name="Adding a new connection">
@@ -538,31 +570,31 @@
 <arg>${web_url}</arg>
 <arg>${browser}</arg>
 </arguments>
-<msg timestamp="20180225 00:36:30.274" level="INFO">Opening browser 'chrome' to base url 'https://www.tintup.com/'.</msg>
-<status status="PASS" endtime="20180225 00:36:42.036" starttime="20180225 00:36:30.274"></status>
+<msg timestamp="20180225 19:57:39.005" level="INFO">Opening browser 'chrome' to base url 'https://www.tintup.com/'.</msg>
+<status status="PASS" endtime="20180225 19:57:50.104" starttime="20180225 19:57:39.005"></status>
 </kw>
 <kw name="Wait Until Page Contains" library="SeleniumLibrary">
 <doc>Waits until ``text`` appears on current page.</doc>
 <arguments>
 <arg>Log In</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:36:42.077" starttime="20180225 00:36:42.042"></status>
+<status status="PASS" endtime="20180225 19:57:50.136" starttime="20180225 19:57:50.106"></status>
 </kw>
 <kw name="Page Should Contain Element" library="SeleniumLibrary">
 <doc>Verifies that element ``locator`` is found on the current page.</doc>
 <arguments>
 <arg>css=#login</arg>
 </arguments>
-<msg timestamp="20180225 00:36:42.122" level="INFO">Current page contains element 'css=#login'.</msg>
-<status status="PASS" endtime="20180225 00:36:42.123" starttime="20180225 00:36:42.077"></status>
+<msg timestamp="20180225 19:57:50.161" level="INFO">Current page contains element 'css=#login'.</msg>
+<status status="PASS" endtime="20180225 19:57:50.161" starttime="20180225 19:57:50.136"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>css=#login</arg>
 </arguments>
-<msg timestamp="20180225 00:36:42.123" level="INFO">Clicking element 'css=#login'.</msg>
-<status status="PASS" endtime="20180225 00:36:44.663" starttime="20180225 00:36:42.123"></status>
+<msg timestamp="20180225 19:57:50.162" level="INFO">Clicking element 'css=#login'.</msg>
+<status status="PASS" endtime="20180225 19:57:53.240" starttime="20180225 19:57:50.162"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -570,16 +602,16 @@
 <arg>css=#credential_email</arg>
 <arg>${email}</arg>
 </arguments>
-<msg timestamp="20180225 00:36:44.665" level="INFO">Typing text 'testuser1@test.com' into text field 'css=#credential_email'.</msg>
-<status status="PASS" endtime="20180225 00:36:45.488" starttime="20180225 00:36:44.663"></status>
+<msg timestamp="20180225 19:57:53.241" level="INFO">Typing text 'testuser1@test.com' into text field 'css=#credential_email'.</msg>
+<status status="PASS" endtime="20180225 19:57:53.576" starttime="20180225 19:57:53.240"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>css=#credential_password</arg>
 </arguments>
-<msg timestamp="20180225 00:36:45.489" level="INFO">Clicking element 'css=#credential_password'.</msg>
-<status status="PASS" endtime="20180225 00:36:45.612" starttime="20180225 00:36:45.488"></status>
+<msg timestamp="20180225 19:57:53.577" level="INFO">Clicking element 'css=#credential_password'.</msg>
+<status status="PASS" endtime="20180225 19:57:53.717" starttime="20180225 19:57:53.576"></status>
 </kw>
 <kw name="Input Password" library="SeleniumLibrary">
 <doc>Types the given password into text field identified by ``locator``.</doc>
@@ -587,25 +619,25 @@
 <arg>css=#credential_password</arg>
 <arg>${pass}</arg>
 </arguments>
-<msg timestamp="20180225 00:36:45.613" level="INFO">Typing password into text field 'css=#credential_password'.</msg>
-<status status="PASS" endtime="20180225 00:36:45.871" starttime="20180225 00:36:45.613"></status>
+<msg timestamp="20180225 19:57:53.718" level="INFO">Typing password into text field 'css=#credential_password'.</msg>
+<status status="PASS" endtime="20180225 19:57:53.809" starttime="20180225 19:57:53.717"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>name=commit</arg>
 </arguments>
-<msg timestamp="20180225 00:36:45.872" level="INFO">Clicking element 'name=commit'.</msg>
-<status status="PASS" endtime="20180225 00:36:56.874" starttime="20180225 00:36:45.871"></status>
+<msg timestamp="20180225 19:57:53.809" level="INFO">Clicking element 'name=commit'.</msg>
+<status status="PASS" endtime="20180225 19:58:01.691" starttime="20180225 19:57:53.809"></status>
 </kw>
 <kw name="Wait Until Page Contains" library="SeleniumLibrary">
 <doc>Waits until ``text`` appears on current page.</doc>
 <arguments>
 <arg>TINTs</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:36:56.911" starttime="20180225 00:36:56.877"></status>
+<status status="PASS" endtime="20180225 19:58:01.721" starttime="20180225 19:58:01.691"></status>
 </kw>
-<status status="PASS" endtime="20180225 00:36:56.912" starttime="20180225 00:36:30.274"></status>
+<status status="PASS" endtime="20180225 19:58:01.722" starttime="20180225 19:57:39.004"></status>
 </kw>
 <kw name="Adding a new tint" library="testone_keywords">
 <kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
@@ -613,59 +645,91 @@
 <arguments>
 <arg>jquery=i.icon-white.fas.fa-plus</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:36:56.926" starttime="20180225 00:36:56.914"></status>
+<status status="PASS" endtime="20180225 19:58:01.732" starttime="20180225 19:58:01.723"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>jquery=i.icon-white.fas.fa-plus</arg>
 </arguments>
-<msg timestamp="20180225 00:36:56.928" level="INFO">Clicking element 'jquery=i.icon-white.fas.fa-plus'.</msg>
-<status status="PASS" endtime="20180225 00:36:57.015" starttime="20180225 00:36:56.927"></status>
+<msg timestamp="20180225 19:58:01.732" level="INFO">Clicking element 'jquery=i.icon-white.fas.fa-plus'.</msg>
+<status status="PASS" endtime="20180225 19:58:01.828" starttime="20180225 19:58:01.732"></status>
 </kw>
 <kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
 <doc>Sets the implicit wait value used by Selenium.</doc>
 <arguments>
 <arg>5s</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:36:57.019" starttime="20180225 00:36:57.016"></status>
+<status status="PASS" endtime="20180225 19:58:01.830" starttime="20180225 19:58:01.828"></status>
 </kw>
 <kw name="Set Focus To Element" library="SeleniumLibrary">
 <doc>Sets focus to element identified by ``locator``.</doc>
 <arguments>
 <arg>css=#newTintUsername</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:36:57.059" starttime="20180225 00:36:57.019"></status>
+<status status="PASS" endtime="20180225 19:58:01.859" starttime="20180225 19:58:01.830"></status>
+</kw>
+<kw name="Random Value" library="testone_keywords">
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code.</doc>
+<arguments>
+<arg>var d = Math.floor((Math.random() * 1000) + 1); return d;</arg>
+</arguments>
+<assign>
+<var>${random}</var>
+</assign>
+<msg timestamp="20180225 19:58:01.861" level="INFO">Executing JavaScript:
+var d = Math.floor((Math.random() * 1000) + 1); return d;</msg>
+<msg timestamp="20180225 19:58:01.869" level="INFO">${random} = 796</msg>
+<status status="PASS" endtime="20180225 19:58:01.869" starttime="20180225 19:58:01.860"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${random}</arg>
+</arguments>
+<msg timestamp="20180225 19:58:01.870" level="INFO">${random} = 796</msg>
+<status status="PASS" endtime="20180225 19:58:01.871" starttime="20180225 19:58:01.869"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${random}</arg>
+</arguments>
+<msg timestamp="20180225 19:58:01.872" level="INFO">796</msg>
+<status status="PASS" endtime="20180225 19:58:01.872" starttime="20180225 19:58:01.871"></status>
+</kw>
+<status status="PASS" endtime="20180225 19:58:01.872" starttime="20180225 19:58:01.860"></status>
 </kw>
 <kw name="Press Key" library="SeleniumLibrary">
 <doc>Simulates user pressing key on element identified by ``locator``.</doc>
 <arguments>
 <arg>css=#newTintUsername</arg>
-<arg>${tintName}</arg>
+<arg>Randomtint${random}</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:36:57.515" starttime="20180225 00:36:57.060"></status>
+<status status="PASS" endtime="20180225 19:58:02.235" starttime="20180225 19:58:01.873"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>jquery=.btn-primary.create-tint-check-name</arg>
 </arguments>
-<msg timestamp="20180225 00:36:57.516" level="INFO">Clicking element 'jquery=.btn-primary.create-tint-check-name'.</msg>
-<status status="PASS" endtime="20180225 00:36:57.709" starttime="20180225 00:36:57.515"></status>
+<msg timestamp="20180225 19:58:02.237" level="INFO">Clicking element 'jquery=.btn-primary.create-tint-check-name'.</msg>
+<status status="PASS" endtime="20180225 19:58:02.353" starttime="20180225 19:58:02.236"></status>
 </kw>
 <kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
 <doc>Sets the implicit wait value used by Selenium.</doc>
 <arguments>
 <arg>10s</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:36:57.712" starttime="20180225 00:36:57.709"></status>
+<status status="PASS" endtime="20180225 19:58:02.354" starttime="20180225 19:58:02.353"></status>
 </kw>
 <kw name="Set Focus To Element" library="SeleniumLibrary">
 <doc>Sets focus to element identified by ``locator``.</doc>
 <arguments>
 <arg>css=textarea[type="text"].question-input</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:37:02.088" starttime="20180225 00:36:57.712"></status>
+<status status="PASS" endtime="20180225 19:58:03.018" starttime="20180225 19:58:02.355"></status>
 </kw>
 <kw name="Press Key" library="SeleniumLibrary">
 <doc>Simulates user pressing key on element identified by ``locator``.</doc>
@@ -673,43 +737,43 @@
 <arg>css=textarea[type="text"].question-input</arg>
 <arg>Goal</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:37:02.162" starttime="20180225 00:37:02.088"></status>
+<status status="PASS" endtime="20180225 19:58:03.207" starttime="20180225 19:58:03.018"></status>
 </kw>
 <kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
 <doc>Sets the implicit wait value used by Selenium.</doc>
 <arguments>
 <arg>20s</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:37:02.164" starttime="20180225 00:37:02.163"></status>
+<status status="PASS" endtime="20180225 19:58:03.209" starttime="20180225 19:58:03.207"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>jquery=.btn.btn-link.pull-left:nth(0)</arg>
 </arguments>
-<msg timestamp="20180225 00:37:02.165" level="INFO">Clicking element 'jquery=.btn.btn-link.pull-left:nth(0)'.</msg>
-<status status="PASS" endtime="20180225 00:37:02.296" starttime="20180225 00:37:02.164"></status>
+<msg timestamp="20180225 19:58:03.209" level="INFO">Clicking element 'jquery=.btn.btn-link.pull-left:nth(0)'.</msg>
+<status status="PASS" endtime="20180225 19:58:03.343" starttime="20180225 19:58:03.209"></status>
 </kw>
 <kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
 <doc>Sets the implicit wait value used by Selenium.</doc>
 <arguments>
 <arg>30s</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:37:02.301" starttime="20180225 00:37:02.296"></status>
+<status status="PASS" endtime="20180225 19:58:03.346" starttime="20180225 19:58:03.343"></status>
 </kw>
 <kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` appears on current page.</doc>
 <arguments>
 <arg>css=a[type="button"] &gt; i.fab.fa-instagram</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:37:11.324" starttime="20180225 00:37:02.301"></status>
+<status status="PASS" endtime="20180225 19:58:12.399" starttime="20180225 19:58:03.347"></status>
 </kw>
 <kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` appears on current page.</doc>
 <arguments>
 <arg>jquery=.content-types &gt; h3</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:37:11.510" starttime="20180225 00:37:11.324"></status>
+<status status="PASS" endtime="20180225 19:58:12.444" starttime="20180225 19:58:12.400"></status>
 </kw>
 <kw name="Element Should Contain" library="SeleniumLibrary">
 <doc>Verifies that element ``locator`` contains text ``expected``.</doc>
@@ -717,10 +781,10 @@
 <arg>jquery=.content-types &gt; h3</arg>
 <arg>Types of content you can source from...</arg>
 </arguments>
-<msg timestamp="20180225 00:37:12.196" level="INFO">Element 'jquery=.content-types &gt; h3' contains text 'Types of content you can source from...'.</msg>
-<status status="PASS" endtime="20180225 00:37:12.197" starttime="20180225 00:37:11.511"></status>
+<msg timestamp="20180225 19:58:12.770" level="INFO">Element 'jquery=.content-types &gt; h3' contains text 'Types of content you can source from...'.</msg>
+<status status="PASS" endtime="20180225 19:58:12.770" starttime="20180225 19:58:12.445"></status>
 </kw>
-<status status="PASS" endtime="20180225 00:37:12.198" starttime="20180225 00:36:56.912"></status>
+<status status="PASS" endtime="20180225 19:58:12.771" starttime="20180225 19:58:01.722"></status>
 </kw>
 <kw name="Add instafeed" library="testone_keywords">
 <kw name="Page Should Contain Element" library="SeleniumLibrary">
@@ -728,37 +792,37 @@
 <arguments>
 <arg>css=a[type="button"] &gt; i.fab.fa-instagram</arg>
 </arguments>
-<msg timestamp="20180225 00:37:12.226" level="INFO">Current page contains element 'css=a[type="button"] &gt; i.fab.fa-instagram'.</msg>
-<status status="PASS" endtime="20180225 00:37:12.227" starttime="20180225 00:37:12.200"></status>
+<msg timestamp="20180225 19:58:12.908" level="INFO">Current page contains element 'css=a[type="button"] &gt; i.fab.fa-instagram'.</msg>
+<status status="PASS" endtime="20180225 19:58:12.908" starttime="20180225 19:58:12.772"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>css=a[type="button"] &gt; i.fab.fa-instagram</arg>
 </arguments>
-<msg timestamp="20180225 00:37:12.228" level="INFO">Clicking element 'css=a[type="button"] &gt; i.fab.fa-instagram'.</msg>
-<status status="PASS" endtime="20180225 00:37:12.416" starttime="20180225 00:37:12.227"></status>
+<msg timestamp="20180225 19:58:12.909" level="INFO">Clicking element 'css=a[type="button"] &gt; i.fab.fa-instagram'.</msg>
+<status status="PASS" endtime="20180225 19:58:13.069" starttime="20180225 19:58:12.909"></status>
 </kw>
 <kw name="Set Focus To Element" library="SeleniumLibrary">
 <doc>Sets focus to element identified by ``locator``.</doc>
 <arguments>
 <arg>css=input[type="text"].edit-content-in-modal-hashtag</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:37:13.042" starttime="20180225 00:37:12.417"></status>
+<status status="PASS" endtime="20180225 19:58:13.120" starttime="20180225 19:58:13.069"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
 <arguments>
 <arg>css=input[type="text"].edit-content-in-modal-hashtag</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:37:13.118" starttime="20180225 00:37:13.043"></status>
+<status status="PASS" endtime="20180225 19:58:13.403" starttime="20180225 19:58:13.120"></status>
 </kw>
 <kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
 <doc>Sets the implicit wait value used by Selenium.</doc>
 <arguments>
 <arg>30s</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:37:13.124" starttime="20180225 00:37:13.118"></status>
+<status status="PASS" endtime="20180225 19:58:13.406" starttime="20180225 19:58:13.403"></status>
 </kw>
 <kw name="Press Key" library="SeleniumLibrary">
 <doc>Simulates user pressing key on element identified by ``locator``.</doc>
@@ -766,22 +830,22 @@
 <arg>css=input[type="text"].edit-content-in-modal-hashtag</arg>
 <arg>Trump</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:37:13.275" starttime="20180225 00:37:13.124"></status>
+<status status="PASS" endtime="20180225 19:58:13.637" starttime="20180225 19:58:13.406"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>css=button[type="button"].btn-add.btn.btn-primary.btn-lg.btn-block.edit-content-in-modal-hashtag-connect &gt; i.icon-white.fas.fa-plus</arg>
 </arguments>
-<msg timestamp="20180225 00:37:13.276" level="INFO">Clicking element 'css=button[type="button"].btn-add.btn.btn-primary.btn-lg.btn-block.edit-content-in-modal-hashtag-connect &gt; i.icon-white.fas.fa-plus'.</msg>
-<status status="PASS" endtime="20180225 00:37:13.844" starttime="20180225 00:37:13.276"></status>
+<msg timestamp="20180225 19:58:13.638" level="INFO">Clicking element 'css=button[type="button"].btn-add.btn.btn-primary.btn-lg.btn-block.edit-content-in-modal-hashtag-connect &gt; i.icon-white.fas.fa-plus'.</msg>
+<status status="PASS" endtime="20180225 19:58:13.868" starttime="20180225 19:58:13.637"></status>
 </kw>
 <kw name="Select Window" library="SeleniumLibrary">
 <doc>Selects browser window matching ``locator``.</doc>
 <arguments>
 <arg>Instagram</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:37:16.131" starttime="20180225 00:37:13.844"></status>
+<status status="PASS" endtime="20180225 19:58:15.650" starttime="20180225 19:58:13.869"></status>
 </kw>
 <kw name="Press Key" library="SeleniumLibrary">
 <doc>Simulates user pressing key on element identified by ``locator``.</doc>
@@ -789,7 +853,7 @@
 <arg>id=id_username</arg>
 <arg>tintqa</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:37:16.217" starttime="20180225 00:37:16.131"></status>
+<status status="PASS" endtime="20180225 19:58:15.739" starttime="20180225 19:58:15.651"></status>
 </kw>
 <kw name="Press Key" library="SeleniumLibrary">
 <doc>Simulates user pressing key on element identified by ``locator``.</doc>
@@ -797,21 +861,21 @@
 <arg>id=id_password</arg>
 <arg>${pass}</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:37:16.334" starttime="20180225 00:37:16.217"></status>
+<status status="PASS" endtime="20180225 19:58:15.935" starttime="20180225 19:58:15.739"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>class=button-green</arg>
 </arguments>
-<msg timestamp="20180225 00:37:16.334" level="INFO">Clicking element 'class=button-green'.</msg>
-<status status="PASS" endtime="20180225 00:37:18.237" starttime="20180225 00:37:16.334"></status>
+<msg timestamp="20180225 19:58:15.936" level="INFO">Clicking element 'class=button-green'.</msg>
+<status status="PASS" endtime="20180225 19:58:17.943" starttime="20180225 19:58:15.936"></status>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" endtime="20180225 00:37:18.653" starttime="20180225 00:37:18.237"></status>
+<status status="PASS" endtime="20180225 19:58:18.105" starttime="20180225 19:58:17.944"></status>
 </kw>
-<status status="PASS" endtime="20180225 00:37:18.654" starttime="20180225 00:37:12.198"></status>
+<status status="PASS" endtime="20180225 19:58:18.105" starttime="20180225 19:58:12.771"></status>
 </kw>
 <kw name="Edit tint" library="testone_keywords">
 <kw name="Login as a test user" library="testone_keywords">
@@ -821,31 +885,31 @@
 <arg>${web_url}</arg>
 <arg>${browser}</arg>
 </arguments>
-<msg timestamp="20180225 00:37:18.655" level="INFO">Opening browser 'chrome' to base url 'https://www.tintup.com/'.</msg>
-<status status="PASS" endtime="20180225 00:37:30.723" starttime="20180225 00:37:18.655"></status>
+<msg timestamp="20180225 19:58:18.108" level="INFO">Opening browser 'chrome' to base url 'https://www.tintup.com/'.</msg>
+<status status="PASS" endtime="20180225 19:58:27.650" starttime="20180225 19:58:18.107"></status>
 </kw>
 <kw name="Wait Until Page Contains" library="SeleniumLibrary">
 <doc>Waits until ``text`` appears on current page.</doc>
 <arguments>
 <arg>Log In</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:37:30.744" starttime="20180225 00:37:30.724"></status>
+<status status="PASS" endtime="20180225 19:58:27.675" starttime="20180225 19:58:27.651"></status>
 </kw>
 <kw name="Page Should Contain Element" library="SeleniumLibrary">
 <doc>Verifies that element ``locator`` is found on the current page.</doc>
 <arguments>
 <arg>css=#login</arg>
 </arguments>
-<msg timestamp="20180225 00:37:30.759" level="INFO">Current page contains element 'css=#login'.</msg>
-<status status="PASS" endtime="20180225 00:37:30.759" starttime="20180225 00:37:30.744"></status>
+<msg timestamp="20180225 19:58:27.696" level="INFO">Current page contains element 'css=#login'.</msg>
+<status status="PASS" endtime="20180225 19:58:27.696" starttime="20180225 19:58:27.676"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>css=#login</arg>
 </arguments>
-<msg timestamp="20180225 00:37:30.760" level="INFO">Clicking element 'css=#login'.</msg>
-<status status="PASS" endtime="20180225 00:37:38.804" starttime="20180225 00:37:30.759"></status>
+<msg timestamp="20180225 19:58:27.696" level="INFO">Clicking element 'css=#login'.</msg>
+<status status="PASS" endtime="20180225 19:58:31.480" starttime="20180225 19:58:27.696"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -853,16 +917,16 @@
 <arg>css=#credential_email</arg>
 <arg>${email}</arg>
 </arguments>
-<msg timestamp="20180225 00:37:38.806" level="INFO">Typing text 'testuser1@test.com' into text field 'css=#credential_email'.</msg>
-<status status="PASS" endtime="20180225 00:37:39.222" starttime="20180225 00:37:38.805"></status>
+<msg timestamp="20180225 19:58:31.481" level="INFO">Typing text 'testuser1@test.com' into text field 'css=#credential_email'.</msg>
+<status status="PASS" endtime="20180225 19:58:31.825" starttime="20180225 19:58:31.480"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>css=#credential_password</arg>
 </arguments>
-<msg timestamp="20180225 00:37:39.223" level="INFO">Clicking element 'css=#credential_password'.</msg>
-<status status="PASS" endtime="20180225 00:37:39.296" starttime="20180225 00:37:39.222"></status>
+<msg timestamp="20180225 19:58:31.826" level="INFO">Clicking element 'css=#credential_password'.</msg>
+<status status="PASS" endtime="20180225 19:58:31.922" starttime="20180225 19:58:31.825"></status>
 </kw>
 <kw name="Input Password" library="SeleniumLibrary">
 <doc>Types the given password into text field identified by ``locator``.</doc>
@@ -870,57 +934,57 @@
 <arg>css=#credential_password</arg>
 <arg>${pass}</arg>
 </arguments>
-<msg timestamp="20180225 00:37:39.297" level="INFO">Typing password into text field 'css=#credential_password'.</msg>
-<status status="PASS" endtime="20180225 00:37:39.423" starttime="20180225 00:37:39.296"></status>
+<msg timestamp="20180225 19:58:31.923" level="INFO">Typing password into text field 'css=#credential_password'.</msg>
+<status status="PASS" endtime="20180225 19:58:32.017" starttime="20180225 19:58:31.923"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>name=commit</arg>
 </arguments>
-<msg timestamp="20180225 00:37:39.447" level="INFO">Clicking element 'name=commit'.</msg>
-<status status="PASS" endtime="20180225 00:37:47.561" starttime="20180225 00:37:39.424"></status>
+<msg timestamp="20180225 19:58:32.018" level="INFO">Clicking element 'name=commit'.</msg>
+<status status="PASS" endtime="20180225 19:58:40.144" starttime="20180225 19:58:32.017"></status>
 </kw>
 <kw name="Wait Until Page Contains" library="SeleniumLibrary">
 <doc>Waits until ``text`` appears on current page.</doc>
 <arguments>
 <arg>TINTs</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:37:47.609" starttime="20180225 00:37:47.561"></status>
+<status status="PASS" endtime="20180225 19:58:40.176" starttime="20180225 19:58:40.145"></status>
 </kw>
-<status status="PASS" endtime="20180225 00:37:47.610" starttime="20180225 00:37:18.654"></status>
+<status status="PASS" endtime="20180225 19:58:40.177" starttime="20180225 19:58:18.106"></status>
 </kw>
 <kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` appears on current page.</doc>
 <arguments>
-<arg>css=a[href="/t/randomtint/edit"]</arg>
+<arg>css=a.btn.btn-default.btn-rounded.pull-right.settings-item-edit.refresh</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:37:47.633" starttime="20180225 00:37:47.610"></status>
+<status status="PASS" endtime="20180225 19:58:40.200" starttime="20180225 19:58:40.177"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
-<arg>css=a[href="/t/randomtint/edit"]</arg>
+<arg>css=a.btn.btn-default.btn-rounded.pull-right.settings-item-edit.refresh</arg>
 </arguments>
-<msg timestamp="20180225 00:37:47.634" level="INFO">Clicking element 'css=a[href="/t/randomtint/edit"]'.</msg>
-<status status="PASS" endtime="20180225 00:37:47.847" starttime="20180225 00:37:47.634"></status>
+<msg timestamp="20180225 19:58:40.200" level="INFO">Clicking element 'css=a.btn.btn-default.btn-rounded.pull-right.settings-item-edit.refresh'.</msg>
+<status status="PASS" endtime="20180225 19:58:40.386" starttime="20180225 19:58:40.200"></status>
 </kw>
 <kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
 <doc>Sets the implicit wait value used by Selenium.</doc>
 <arguments>
 <arg>20s</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:37:47.851" starttime="20180225 00:37:47.848"></status>
+<status status="PASS" endtime="20180225 19:58:40.388" starttime="20180225 19:58:40.386"></status>
 </kw>
-<status status="PASS" endtime="20180225 00:37:47.851" starttime="20180225 00:37:18.654"></status>
+<status status="PASS" endtime="20180225 19:58:40.388" starttime="20180225 19:58:18.106"></status>
 </kw>
 <kw name="Page Should Not Contain Element" library="SeleniumLibrary">
 <doc>Verifies that element ``locator`` is found on the current page.</doc>
 <arguments>
 <arg>jquery=.content-types &gt; h3</arg>
 </arguments>
-<msg timestamp="20180225 00:37:47.863" level="INFO">Current page does not contain element 'jquery=.content-types &gt; h3'.</msg>
-<status status="PASS" endtime="20180225 00:37:47.863" starttime="20180225 00:37:47.852"></status>
+<msg timestamp="20180225 19:58:40.437" level="INFO">Current page does not contain element 'jquery=.content-types &gt; h3'.</msg>
+<status status="PASS" endtime="20180225 19:58:40.438" starttime="20180225 19:58:40.389"></status>
 </kw>
 <kw name="Delete current tint" library="testone_keywords">
 <kw name="Login as a test user" library="testone_keywords">
@@ -930,31 +994,31 @@
 <arg>${web_url}</arg>
 <arg>${browser}</arg>
 </arguments>
-<msg timestamp="20180225 00:37:47.867" level="INFO">Opening browser 'chrome' to base url 'https://www.tintup.com/'.</msg>
-<status status="PASS" endtime="20180225 00:38:03.516" starttime="20180225 00:37:47.866"></status>
+<msg timestamp="20180225 19:58:40.441" level="INFO">Opening browser 'chrome' to base url 'https://www.tintup.com/'.</msg>
+<status status="PASS" endtime="20180225 19:58:50.810" starttime="20180225 19:58:40.440"></status>
 </kw>
 <kw name="Wait Until Page Contains" library="SeleniumLibrary">
 <doc>Waits until ``text`` appears on current page.</doc>
 <arguments>
 <arg>Log In</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:38:03.661" starttime="20180225 00:38:03.521"></status>
+<status status="PASS" endtime="20180225 19:58:50.848" starttime="20180225 19:58:50.810"></status>
 </kw>
 <kw name="Page Should Contain Element" library="SeleniumLibrary">
 <doc>Verifies that element ``locator`` is found on the current page.</doc>
 <arguments>
 <arg>css=#login</arg>
 </arguments>
-<msg timestamp="20180225 00:38:03.707" level="INFO">Current page contains element 'css=#login'.</msg>
-<status status="PASS" endtime="20180225 00:38:03.707" starttime="20180225 00:38:03.662"></status>
+<msg timestamp="20180225 19:58:50.872" level="INFO">Current page contains element 'css=#login'.</msg>
+<status status="PASS" endtime="20180225 19:58:50.872" starttime="20180225 19:58:50.849"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>css=#login</arg>
 </arguments>
-<msg timestamp="20180225 00:38:03.708" level="INFO">Clicking element 'css=#login'.</msg>
-<status status="PASS" endtime="20180225 00:38:06.256" starttime="20180225 00:38:03.707"></status>
+<msg timestamp="20180225 19:58:50.873" level="INFO">Clicking element 'css=#login'.</msg>
+<status status="PASS" endtime="20180225 19:58:54.083" starttime="20180225 19:58:50.872"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -962,16 +1026,16 @@
 <arg>css=#credential_email</arg>
 <arg>${email}</arg>
 </arguments>
-<msg timestamp="20180225 00:38:06.258" level="INFO">Typing text 'testuser1@test.com' into text field 'css=#credential_email'.</msg>
-<status status="PASS" endtime="20180225 00:38:06.765" starttime="20180225 00:38:06.257"></status>
+<msg timestamp="20180225 19:58:54.085" level="INFO">Typing text 'testuser1@test.com' into text field 'css=#credential_email'.</msg>
+<status status="PASS" endtime="20180225 19:58:54.395" starttime="20180225 19:58:54.084"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>css=#credential_password</arg>
 </arguments>
-<msg timestamp="20180225 00:38:06.765" level="INFO">Clicking element 'css=#credential_password'.</msg>
-<status status="PASS" endtime="20180225 00:38:06.840" starttime="20180225 00:38:06.765"></status>
+<msg timestamp="20180225 19:58:54.396" level="INFO">Clicking element 'css=#credential_password'.</msg>
+<status status="PASS" endtime="20180225 19:58:56.890" starttime="20180225 19:58:54.395"></status>
 </kw>
 <kw name="Input Password" library="SeleniumLibrary">
 <doc>Types the given password into text field identified by ``locator``.</doc>
@@ -979,88 +1043,88 @@
 <arg>css=#credential_password</arg>
 <arg>${pass}</arg>
 </arguments>
-<msg timestamp="20180225 00:38:06.841" level="INFO">Typing password into text field 'css=#credential_password'.</msg>
-<status status="PASS" endtime="20180225 00:38:06.964" starttime="20180225 00:38:06.840"></status>
+<msg timestamp="20180225 19:58:56.893" level="INFO">Typing password into text field 'css=#credential_password'.</msg>
+<status status="PASS" endtime="20180225 19:58:57.093" starttime="20180225 19:58:56.892"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>name=commit</arg>
 </arguments>
-<msg timestamp="20180225 00:38:06.965" level="INFO">Clicking element 'name=commit'.</msg>
-<status status="PASS" endtime="20180225 00:38:16.716" starttime="20180225 00:38:06.965"></status>
+<msg timestamp="20180225 19:58:57.093" level="INFO">Clicking element 'name=commit'.</msg>
+<status status="PASS" endtime="20180225 19:59:06.834" starttime="20180225 19:58:57.093"></status>
 </kw>
 <kw name="Wait Until Page Contains" library="SeleniumLibrary">
 <doc>Waits until ``text`` appears on current page.</doc>
 <arguments>
 <arg>TINTs</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:38:16.752" starttime="20180225 00:38:16.716"></status>
+<status status="PASS" endtime="20180225 19:59:06.933" starttime="20180225 19:59:06.839"></status>
 </kw>
-<status status="PASS" endtime="20180225 00:38:16.753" starttime="20180225 00:37:47.865"></status>
+<status status="PASS" endtime="20180225 19:59:06.934" starttime="20180225 19:58:40.439"></status>
 </kw>
 <kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` appears on current page.</doc>
 <arguments>
 <arg>jquery=.dropdown.simple-dropdown &gt; button.btn.btn-link &gt; i.fas.fa-cog</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:38:16.760" starttime="20180225 00:38:16.753"></status>
+<status status="PASS" endtime="20180225 19:59:06.988" starttime="20180225 19:59:06.935"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>jquery=.dropdown.simple-dropdown &gt; button.btn.btn-link &gt; i.fas.fa-cog</arg>
 </arguments>
-<msg timestamp="20180225 00:38:16.760" level="INFO">Clicking element 'jquery=.dropdown.simple-dropdown &gt; button.btn.btn-link &gt; i.fas.fa-cog'.</msg>
-<status status="PASS" endtime="20180225 00:38:21.589" starttime="20180225 00:38:16.760"></status>
+<msg timestamp="20180225 19:59:06.991" level="INFO">Clicking element 'jquery=.dropdown.simple-dropdown &gt; button.btn.btn-link &gt; i.fas.fa-cog'.</msg>
+<status status="PASS" endtime="20180225 19:59:07.344" starttime="20180225 19:59:06.989"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>jquery=.dropdown-menu &gt; li:nth-of-type(6) &gt; a[href="#"].settings-item-remove</arg>
 </arguments>
-<msg timestamp="20180225 00:38:21.590" level="INFO">Clicking element 'jquery=.dropdown-menu &gt; li:nth-of-type(6) &gt; a[href="#"].settings-item-remove'.</msg>
-<status status="PASS" endtime="20180225 00:38:22.005" starttime="20180225 00:38:21.589"></status>
+<msg timestamp="20180225 19:59:07.345" level="INFO">Clicking element 'jquery=.dropdown-menu &gt; li:nth-of-type(6) &gt; a[href="#"].settings-item-remove'.</msg>
+<status status="PASS" endtime="20180225 19:59:07.737" starttime="20180225 19:59:07.344"></status>
 </kw>
 <kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
 <doc>Sets the implicit wait value used by Selenium.</doc>
 <arguments>
 <arg>20s</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:38:22.008" starttime="20180225 00:38:22.006"></status>
+<status status="PASS" endtime="20180225 19:59:07.740" starttime="20180225 19:59:07.737"></status>
 </kw>
 <kw name="Set Focus To Element" library="SeleniumLibrary">
 <doc>Sets focus to element identified by ``locator``.</doc>
 <arguments>
 <arg>jquery=i.fas.fa-check:nth(0)</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:38:22.086" starttime="20180225 00:38:22.008"></status>
+<status status="PASS" endtime="20180225 19:59:07.829" starttime="20180225 19:59:07.741"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
 <arguments>
 <arg>jquery=i.fas.fa-check:nth(0)</arg>
 </arguments>
-<status status="PASS" endtime="20180225 00:38:22.136" starttime="20180225 00:38:22.086"></status>
+<status status="PASS" endtime="20180225 19:59:07.891" starttime="20180225 19:59:07.830"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>jquery=i.fas.fa-check:nth(0)</arg>
 </arguments>
-<msg timestamp="20180225 00:38:22.136" level="INFO">Clicking element 'jquery=i.fas.fa-check:nth(0)'.</msg>
-<status status="PASS" endtime="20180225 00:38:22.423" starttime="20180225 00:38:22.136"></status>
+<msg timestamp="20180225 19:59:07.892" level="INFO">Clicking element 'jquery=i.fas.fa-check:nth(0)'.</msg>
+<status status="PASS" endtime="20180225 19:59:08.037" starttime="20180225 19:59:07.892"></status>
 </kw>
-<status status="PASS" endtime="20180225 00:38:22.424" starttime="20180225 00:37:47.863"></status>
+<status status="PASS" endtime="20180225 19:59:08.038" starttime="20180225 19:58:40.438"></status>
 </kw>
 <tags>
 <tag>Ok</tag>
 </tags>
-<status status="PASS" endtime="20180225 00:38:22.661" critical="yes" starttime="20180225 00:36:30.273"></status>
+<status status="PASS" endtime="20180225 19:59:08.045" critical="yes" starttime="20180225 19:57:39.004"></status>
 </test>
-<status status="PASS" endtime="20180225 00:38:22.670" starttime="20180225 00:36:30.260"></status>
+<status status="PASS" endtime="20180225 19:59:08.048" starttime="20180225 19:57:38.989"></status>
 </suite>
-<status status="PASS" endtime="20180225 00:38:22.676" starttime="20180225 00:34:18.263"></status>
+<status status="PASS" endtime="20180225 19:59:08.054" starttime="20180225 19:55:44.497"></status>
 </suite>
 <statistics>
 <total>

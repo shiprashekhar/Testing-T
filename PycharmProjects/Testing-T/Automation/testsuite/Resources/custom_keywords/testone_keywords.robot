@@ -21,7 +21,8 @@ Adding a new tint
 | |  click element                     | jquery=i.icon-white.fas.fa-plus            |                                         | |
 | |  Set Browser Implicit Wait         | 5s                                         |                                         | |
 | |  Set Focus To Element              | css=#newTintUsername                       |                                         | |
-| |  press key                         | css=#newTintUsername                       | ${tintName}                             | |
+| |  Random Value                      |                                            |                                                      |
+| |  press key                         | css=#newTintUsername                       |  Randomtint${random}                             | |
 | |  click element                     | jquery=.btn-primary.create-tint-check-name |                                         | |
 | |  Set Browser Implicit Wait         | 10s                                        |                                         | |
 | |  Set Focus To Element              | css=textarea[type="text"].question-input   |                                         | |
@@ -60,10 +61,10 @@ Add instafeed
 | |  close browser                  |                                                                                                                                     |         |
 
 Edit tint
-| |  Login as a test user                 |                                  |  |
-| |  wait until page contains element     | css=a[href="/t/randomtint/edit"] |  |
-| |  Click Element                        | css=a[href="/t/randomtint/edit"] |  |
-| |  Set Browser Implicit Wait            | 20s                              |  |
+| |  Login as a test user                 |                                                                          |  |
+| |  wait until page contains element     | css=a.btn.btn-default.btn-rounded.pull-right.settings-item-edit.refresh  |  |
+| |  Click Element                        | css=a.btn.btn-default.btn-rounded.pull-right.settings-item-edit.refresh  |  |
+| |  Set Browser Implicit Wait            | 20s                                                                      |  |
 
 Delete current tint
 | |  Login as a test user              |                                                                              |  |
@@ -101,3 +102,10 @@ Delete tint
 | |  Set Focus To Element              | jquery=i.fas.fa-check:nth(0)                                                 |  |
 | |  Wait Until Element Is Visible     | jquery=i.fas.fa-check:nth(0)                                                 |  |
 | |  Click element                     | jquery=i.fas.fa-check:nth(0)                                                 |  |
+
+
+Random Value
+| |  ${random} =  | Execute javascript  |  var d = Math.floor((Math.random() * 1000) + 1); return d;   |                   |
+| |  Set Global Variable  |      ${random}                                                                                                                               |         |
+| |  log                  |      ${random}                                                                                                                               |         |
+

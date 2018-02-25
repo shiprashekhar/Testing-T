@@ -29,10 +29,9 @@ Email collaborator
 | |  input password                   | id=credential_password_confirmation                                   | ${pass}                   |                   |
 | |  click element                    | name=commit                                                           |                           |                   |
 | |  wait until page contains         | TINTs                                                                 |                           |                   |
-| |  Page Should Not Contain          | randomtint                                                            |                           |                   |
+| |  Page Should Not Contain          | Randomtint${random}                                                           |                           |                   |
 | |  close browser                    |                                                                       |                           |                   |
 | |  Login as a test user             |                                                                       |                           |                   |
 | |  Delete tint                      |                                                                       |                           |                   |
-
 
 
